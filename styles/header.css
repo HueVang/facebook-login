@@ -5,6 +5,7 @@ header {
   width: 100%;
   font-family: 'Nunito';
   font-size: 0.75em;
+  overflow: hidden;
 }
 
 /*IDs*/

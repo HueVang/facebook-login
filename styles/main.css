@@ -1,5 +1,200 @@
+/*Elements*/
 main {
   background-color: #edf0f5;
   height: 85vh;
   width: 100%;
+  font-family: 'Nunito';
+}
+
+h1 {
+  font-size: 2.25em;
+  margin-bottom: 0;
+}
+
+h2 {
+  padding-top: 1.5em;
+  width: 15em;
+  font-weight: bolder;
+  font-size: 1.80em;
+}
+
+/*IDs*/
+#contents {
+  margin: 0 auto;
+  height: 100%;
+  width: 75%;
+}
+
+#left-section {
+  height: 100%;
+  width: 55%;
+  display: inline-block;
+  float: left;
+  padding: 0 1em 0 0;
+}
+
+#right-section {
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+  float: right;
+}
+
+#form {
+  height: 70%;
+  width: 110%;
+  /*background-color: turquoise;*/
+}
+
+#sml-select {
+  width: 5em;
+}
+
+#create-btn {
+  background-color: #69a74e;
+  color: white;
+  font-size: 1.25em;
+  height: 2em;
+  width: 10em;
+}
+
+#create-btn:hover {
+  cursor: pointer;
+  background-color: #75bc56;
+}
+
+#special-border-row {
+  margin: .5em 0 0 0;
+  padding: 1em 0 0 0;
+  border-top: 1px solid #dddfe2;
+  font-size: 0.9em;
+}
+
+#special-border-row span {
+  color: #365899;
+}
+
+#special-border-row span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*Classes*/
+.l-content {
+  height: 70px;
+  width: 100%;
+  margin: .5em 0 0 0;
+}
+
+.l-img {
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+}
+
+.l-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.l-text {
+  display: inline-block;
+  padding: .5em 0 0em 1.5em;
+  position: absolute;
+}
+
+.l-padding {
+ padding: 0 0 0 .75em;
+}
+
+.r-input-row, .r-row {
+  height: 35px;
+  width: 100%;
+  margin: 1em 0 0 0;
+}
+
+.r-input-row-big, .r-row-big {
+  height: 50px;
+  width: 100%;
+  margin: 1em 0 0 0;
+}
+
+.r-input-row input::-webkit-input-placeholder {
+    color: #a7aaaf;
+    font-size: 20px;
+    line-height: 2;
+    padding: 0 0 0 .5em;
+}
+
+.r-input-row-big select {
+  height: 3em;
+  width: 6em;
+}
+
+.bday-row {
+  padding: .5em 0 0 0;
+}
+
+.bday-text {
+  color: #365899;
+  font-size: .70em;
+  display: inline;
+  width: 8em;
+}
+
+.bday-text p {
+  width: 15em;
+  display: inline-flex;
+  margin: 0;
+  top: -5px;
+  position: relative;
+}
+
+.bday-text p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.disclaimer-text {
+  font-size: 0.70em;
+  color: #74767a;
+  width: 28em;
+}
+
+.radio {
+  display: inline-block;
+  padding: .5em 0 0 .5em;
+  font-size: 1.20em;
+}
+
+.btn-row {
+  padding: 1em 0 0 0;
+}
+
+.sml-input {
+  height: 100%;
+  width: 44%;
+  margin: 0 0 0 0.6em;
+}
+
+.med-input {
+  height: 100%;
+  width: 47%;
+}
+
+.big-input {
+  height: 100%;
+  width: 95%;
+}
+
+.heavyweight {
+  font-weight: 900;
+}
+
+.med-text {
+  font-size: 1.10em;
+}
+
+.gray {
+  color: gray;
 }

@@ -5,6 +5,7 @@ var facebook_displayed = true;
 
 // ES6
 var switchDisplay = () => {
+  // Checks to see what is displayed then switches elements.
   if (facebook_displayed) {
     document.getElementById('facebook').style.display = 'none';
     document.getElementById('name').style.display = 'block';
@@ -12,6 +13,7 @@ var switchDisplay = () => {
     document.getElementById('facebook').style.display = 'block';
     document.getElementById('name').style.display = 'none';
   }
+  // Reverse the status of facebook_displayed.
   facebook_displayed = !facebook_displayed;
 };
 
