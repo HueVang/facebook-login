@@ -70,15 +70,6 @@ h2 {
   font-size: 0.9em;
 }
 
-#special-border-row span {
-  color: #365899;
-}
-
-#special-border-row span:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 /*Classes*/
 .l-content {
   height: 70px;
@@ -185,6 +176,15 @@ h2 {
 .big-input {
   height: 100%;
   width: 95%;
+}
+
+.r-span-link {
+  color: #365899;
+}
+
+.r-span-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .heavyweight {
