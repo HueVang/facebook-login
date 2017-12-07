@@ -6,5 +6,78 @@ footer {
 }
 
 /*IDs*/
+#footer-center {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#top #chosen {
+  color: black;
+}
+
+#top #chosen:hover {
+  text-decoration: none;
+  cursor: text;
+}
+
+#top {
+  /*background-color: red;*/
+  height: 25%;
+  width: 90%;
+  padding: 1em 0 0 1em;
+}
+
+#top span, #bot-table .bot-table-cell, #bot span{
+  color: #365899;
+  font-size: .75em;
+  padding: 0 0 0 1em;
+}
+
+#top span:hover, #bot-table .bot-table-cell:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#top button {
+  margin: 0 0 0 .5em;
+  font-size: 1em;
+  height: 1.5em;
+  width: 2em;
+}
+
+#top button:hover {
+  cursor: pointer;
+  background-color: #e6e8e5;
+}
+
+#mid {
+  /*background-color: white;*/
+  height: 40%;
+  width: 95%;
+  padding: .5em 0 0 1em;
+  border-top: 1px solid #dddfe2;
+}
+
+#bot {
+  /*background-color: blue;*/
+  height: 25%;
+  width: 90%;
+  padding: 1em 0 0 1em;
+}
+
+#bot-table {
+  display: table;
+}
 
 /*Classes*/
+.bot-table-row {
+  display: table-row;
+}
+
+.bot-table-cell {
+  display: table-cell;
+  padding: 0 0 0 1em;
+  height: 1.5em;
+  width: 8em;
+}
