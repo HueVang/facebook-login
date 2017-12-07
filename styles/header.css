@@ -1,0 +1,88 @@
+/*Elements*/
+header {
+  background-color: #3b5998;
+  height: 85px;
+  width: 100%;
+  font-family: 'Nunito';
+  font-size: 0.75em;
+}
+
+/*IDs*/
+#center {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#fb-logo {
+  float: left;
+}
+
+#fb-logo img {
+  height: 90px;
+}
+
+#login-form {
+  float: right;
+  padding-top: 1em;
+  height: 65px;
+  width: 400px;
+}
+
+#login-btn {
+  background-color: #4267b2;
+  border-color: #29487d;
+  height: 2em;
+  width: 4em;
+  padding: 0;
+  cursor: pointer;
+}
+
+#login-btn:hover {
+  background-color: #3b5998;
+}
+
+#fake-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#name {
+  display: none;
+  padding: 1em 0 0 0;
+  height: 65px;
+  width: 150px;
+  font-size: 2.5em;
+}
+
+#name:hover, #facebook:hover {
+  cursor: pointer;
+}
+
+/*Classes*/
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+  min-height: 1em;
+  margin-top: 1em;
+}
+
+.cell {
+  display: table-cell;
+  min-height: 1.5em;
+  padding: .5em 0 0 1.5em;
+}
+
+.table .row .cell {
+  cursor: default;
+}
+
+.white {
+  color: white;
+}
+
+.lightblue {
+  color: #9cb4d8;
+}
